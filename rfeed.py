@@ -1,8 +1,8 @@
 __name__ = "rfeed"
 __version__ = (1, 0, 0)
-__author__ = "Santiago L. Valdarrama - https://blog.svpino.com"
+__author__ = "Jose Alberto Gonzalez von Schmeling - https://proyectosbeta.net"
 _generator = __name__ + " v" + ".".join(map(str, __version__))
-_docs = "https://github.com/svpino/rfeed/blob/master/README.md"
+_docs = "https://github.com/josego85/rfeed/blob/master/README.md"
 
 import itertools
 import sys
@@ -519,7 +519,7 @@ class Item(Host):
 	of title or description must be present.
 	More information at http://cyber.law.harvard.edu/rss/rss.html#hrelementsOfLtitemgt
 	"""
-	def __init__(self, title = None, link = None, description = None, author = None, 
+	def __init__(self, title = None, link = None, description = None, author = None,
 	creator = None, categories = None, comments = None, enclosure = None,
 		guid = None, pubDate = None, source = None, extensions = None):
 		""" Keyword arguments:
